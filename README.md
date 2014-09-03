@@ -7,7 +7,7 @@ If you are lazy enough or just forgetful to start/end your working day in Bitrix
 
 To add some randomness use next command in cron:
 
-sleep ${RANDOM:0:1}m; php korportal.php action
+`sleep ${RANDOM:0:1}m; php korportal.php action`
 
 It adds pause for random time between 1-10 minutes before posting.
 
