@@ -1,5 +1,5 @@
 <?php
-include 'options.php';
+require 'options.php';
 
 if ($randomSleep !== false && $randomSleep > 0) {
     sleep($randomSleep);
